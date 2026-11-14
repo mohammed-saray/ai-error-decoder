@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ai-error-decoder"
+version = "0.1.0"
+description = "Paste any Claude, OpenAI or Gemini API error (429, 529, quota, RESOURCE_EXHAUSTED, insufficient_quota) and get a plain-English cause, reset time and fix."
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+authors = [{name = "Mohammed Al-Saray"}]
+keywords = ["anthropic", "openai", "gemini", "429", "rate-limit", "quota", "resource-exhausted", "insufficient-quota", "error", "debugging"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+  "Environment :: Console",
+]
+
+[project.urls]
+Homepage = "https://github.com/mohammed2345353/ai-error-decoder"
+Issues = "https://github.com/mohammed2345353/ai-error-decoder/issues"
+
+[project.scripts]
+ai-error-decoder = "ai_error_decoder.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
