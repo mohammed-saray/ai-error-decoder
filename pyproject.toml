@@ -19,8 +19,8 @@ classifiers = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/mohammed2345353/ai-error-decoder"
-Issues = "https://github.com/mohammed2345353/ai-error-decoder/issues"
+Homepage = "https://github.com/mohammed-saray/ai-error-decoder"
+Issues = "https://github.com/mohammed-saray/ai-error-decoder/issues"
 
 [project.scripts]
 ai-error-decoder = "ai_error_decoder.cli:main"
