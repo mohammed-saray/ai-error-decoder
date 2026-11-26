@@ -6,6 +6,7 @@
 ![Python](https://img.shields.io/badge/python-3.9%2B-blue)
 ![Dependencies](https://img.shields.io/badge/dependencies-0-brightgreen)
 [![License: MIT](https://img.shields.io/badge/license-MIT-yellow.svg)](LICENSE)
+n> **Calling these APIs from JavaScript?** [ratelimit-retry](https://github.com/mohammed-saray/ratelimit-retry) retries them the way each provider asks.
 
 Covers **Anthropic / Claude / Claude Code**, **OpenAI / ChatGPT / Codex** and **Google Gemini / Gemini CLI**.
 
